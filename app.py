@@ -99,9 +99,10 @@ if btn1:
                 }
             },
             hoverlabel=dict(
+                font_color="white",
                 font_size=12,
                 font_family="Arial",
-                bgcolor="rgba(255, 255, 255, 0)"  # Transparent background for hover
+                bgcolor="rgb(250, 99, 71)"  # Transparent background for hover
             )
         )
 
