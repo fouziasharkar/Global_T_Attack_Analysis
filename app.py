@@ -223,7 +223,7 @@ else:
         hoverlabel=dict(
             font_size=12,
             font_family="Arial",
-            bgcolor="rgba(255, 255, 255, 0)"  # Transparent background for hover
+            bgcolor="rgba(255, 99, 71, 1)"  # Transparent background for hover
         )
     )
 
