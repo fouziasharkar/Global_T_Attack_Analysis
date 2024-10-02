@@ -32,7 +32,7 @@ terror['state'].replace(['Paktika Province', 'Fier (County)', 'Kukës (County)',
 #first selectbox
 country_name = sorted(terror['country'].unique().tolist())
 country_name.insert(0,'Select')
-country_name.insert(1,'Overall')
+country_name.insert(1,'Global')
 
 #to wide the streamlit width
 st.set_page_config(layout='wide')
@@ -185,7 +185,7 @@ else:
         lon="longitude",
         size="total_kills",  # Circle size based on total kills
         color="total_injuries",  # Circle color based on total injuries
-        zoom=1,  # Adjust zoom level for better country-specific view
+        zoom=3,  # Adjust zoom level for better country-specific view
         mapbox_style='carto-positron',
         size_max=40,
         width=1200, height=700,
