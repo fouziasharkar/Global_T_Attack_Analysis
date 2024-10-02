@@ -38,7 +38,7 @@ country_name.insert(1,'Global')
 st.set_page_config(layout='wide')
 
 #sidebar title
-st.sidebar.title('Global Terrorist Attacks Analysis (1970-2017)')
+st.sidebar.title('Global Terrorism Data Analysis (1970-2017)')
 
 #first selectbox
 selected_country = st.sidebar.selectbox('Select a country',country_name)
