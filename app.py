@@ -133,7 +133,15 @@ if btn1:
                 'font': {
                     'size': 24,  # Set the font size to 24 (you can adjust this value as needed)
                     'family': "Arial"
-                }},xaxis_title='')
+                }}
+            ,xaxis_title='',
+            hoverlabel=dict(
+                font_color="white",
+                font_size=12,
+                font_family="Arial",
+                bgcolor="rgb(255, 187, 0)"  # Transparent background for hover
+            )        
+        )
 
         ########################################## third fig ####################################
 
