@@ -161,10 +161,11 @@ if btn1:
             color='weapon',
             title='Weapon Used Globally For Attacks',
             labels={'fatalities': 'Total Fatalities'},
-            hover_name='weapon',  # Show weapon name on hover
+            #hover_name='weapon',  # Show weapon name on hover
             size_max=60,  # Max size for bubbles
             width =1200,
-            height= 550
+            height= 550,
+            
         )
 
         # Update layout for better appearance
@@ -177,7 +178,7 @@ if btn1:
                 font_color="white",
                 font_size=15,
                 font_family="Arial",
-                bgcolor="rgb(255, 146, 255)"  # Transparent background for hover
+                bgcolor="rgb(255, 102, 255)"  # Transparent background for hover
             )
         )
 
