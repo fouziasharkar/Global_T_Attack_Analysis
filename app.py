@@ -124,7 +124,8 @@ if btn1:
             title='Total Fatalities by Country Over the Years',
             labels={'fatalities': 'Total Fatalities'},
             width=1200,
-            height=800
+            height=800,
+            hover_data={'country': False}
         )
 
         fig1.update_layout(
@@ -139,6 +140,7 @@ if btn1:
                 font_color="white",
                 font_size=12,
                 font_family="Arial",
+                bordercolor="white",
                 bgcolor="rgb(255, 187, 0)"  # Transparent background for hover
             )        
         )
