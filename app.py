@@ -178,7 +178,7 @@ if btn1:
                 font_color="white",
                 font_size=15,
                 font_family="Arial",
-                bgcolor="rgb(255, 102, 255)"  # Transparent background for hover
+                bgcolor="rgb(106, 90, 205)"  # Transparent background for hover
             )
         )
 
