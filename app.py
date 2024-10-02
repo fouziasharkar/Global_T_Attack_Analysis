@@ -48,7 +48,7 @@ btn1 = st.sidebar.button('Plot Graph')
 
 if btn1:
     # Grouping the data
-    if selected_country == 'Overall':
+    if selected_country == 'Global':
 
         # Format the date in "19 April, 2015" style
         grouped_terror['formatted_date'] = pd.to_datetime(grouped_terror['date']).dt.strftime('%d %B, %Y')
