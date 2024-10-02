@@ -138,7 +138,7 @@ if btn1:
             ,xaxis_title='',
             hoverlabel=dict(
                 font_color="white",
-                font_size=12,
+                font_size=15,
                 font_family="Arial",
                 bordercolor="white",
                 bgcolor="rgb(255, 187, 0)"  # Transparent background for hover
@@ -173,6 +173,12 @@ if btn1:
             xaxis_title='Weapon',
             yaxis_title='Total Fatalities',
             xaxis_tickangle=-45,
+            hoverlabel=dict(
+                font_color="white",
+                font_size=15,
+                font_family="Arial",
+                bgcolor="rgb(255, 146, 255)"  # Transparent background for hover
+            )
         )
 
     st.plotly_chart(fig,use_container_width=True)
