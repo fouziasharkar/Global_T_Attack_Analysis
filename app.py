@@ -314,7 +314,7 @@ else:
                 font_size=15,
                 font_family="Arial",
                 bordercolor="white",
-                bgcolor="rgb(0, 128, 128)"  # Transparent background for hover
+                bgcolor="rgb(255, 165, 0)"  # Transparent background for hover
             )  
     )
 
@@ -336,7 +336,7 @@ else:
         color='weapon',
         title=f'Weapons Used in {selected_country} for Attacks ',
         labels={'fatalities': 'Total Fatalities'},
-        hover_name='weapon',  # Show weapon name on hover
+        #hover_name='weapon',  # Show weapon name on hover
         size_max=70,  # Max size for bubbles
         width=1200,
         height=550
