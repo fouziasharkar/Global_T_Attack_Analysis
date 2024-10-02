@@ -149,7 +149,7 @@ if btn1:
             log_y = True,
             size='fatalities',
             color='weapon',
-            title='Global Total Fatalities by Weapon',
+            title='Weapon Used Globally For Attacks',
             labels={'fatalities': 'Total Fatalities'},
             hover_name='weapon',  # Show weapon name on hover
             size_max=60,  # Max size for bubbles
