@@ -164,7 +164,7 @@ if btn1:
             #hover_name='weapon',  # Show weapon name on hover
             size_max=60,  # Max size for bubbles
             width =1200,
-            height= 550,
+            height= 550
             
         )
 
@@ -309,6 +309,13 @@ else:
         xaxis_title='States',
         yaxis_title='Total Fatalities',
         xaxis_tickangle=-45,
+        hoverlabel=dict(
+                font_color="white",
+                font_size=15,
+                font_family="Arial",
+                bordercolor="white",
+                bgcolor="rgb(0, 128, 128)"  # Transparent background for hover
+            )  
     )
 
     #################################### Third fig ############################################
@@ -341,6 +348,12 @@ else:
         xaxis_title='Weapon',
         yaxis_title='Total Fatalities',
         xaxis_tickangle=-45,
+        hoverlabel=dict(
+                font_color="white",
+                font_size=15,
+                font_family="Arial",
+                bgcolor="rgb(106, 90, 205)"  # Transparent background for hover
+            )
     )
 
 
